@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-family: Her;
 }
 
 .header {
@@ -11,12 +12,27 @@ body {
 
 ul {
     list-style-type: none;
-    text-decoration: none;
     display: flex;
     gap: 2em;
 
 }
 
-.header {
-    background-color: HEX #1f2937;
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header,
+.intro {
+    background-color:#1f2937;
+    color: white;
+    padding: 5px 10em;
+    
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
