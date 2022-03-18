@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 2em;
+
+}
+
+.header {
+    background-color: HEX #1f2937;
+}
