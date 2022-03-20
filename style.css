@@ -35,3 +35,18 @@ a {
     display: flex;
     flex-direction: row;
 }
+
+h1 {
+    text-align: center;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+}
