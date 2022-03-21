@@ -77,6 +77,14 @@ p.text {
     height: 50px;
     justify-content: center;
     margin: 100px;
+    align-items: center;
+    color: white;
+    gap: 2em;
 
 }
 
+.footer {
+    min-width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
